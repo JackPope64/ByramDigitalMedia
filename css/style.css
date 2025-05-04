@@ -1,0 +1,233 @@
+/* DATE: 6/24/2023
+AUTHOR: BYRAM DIGITAL MEDIA
+UPDATED: 6/24/2023 */
+
+/* GLOBAL */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: Inter Tight, sans-serif;
+}
+
+/* NAV */
+#navbar {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.navbar {
+  background-image: linear-gradient(to right, #000, #000);
+  padding: 0 !important;
+}
+
+.navbar-brand img {
+  height: 60px;
+  padding-left: 20px;
+}
+
+.navbar-nav li {
+  padding: 0 10px;
+}
+
+.navbar-nav li a {
+  color: #fff !important;
+  font-weight: 600;
+  text-transform: uppercase;
+  float: right;
+  text-align: left;
+}
+
+.fa-bars {
+  color: #fff;
+  font-size: 30px !important;
+}
+
+.navbar-toggler {
+  outline: none !important;
+}
+
+/* BANNER */
+#banner {
+  background-image: linear-gradient(to right, #000080, #000033);
+  color: #fff;
+  padding-top: 5%;
+}
+
+.promo-title {
+  font-size: 40px;
+  font-family: Oswald, sans-serif;
+  text-transform: uppercase;
+  color: #ff0000;
+  font-weight: 700;
+  margin-top: 100px;
+}
+
+.promo-subtitle {
+  font-size: 30px;
+  font-weight: 700;
+  margin: 0 0 20px 0;
+}
+
+.info-area p {
+  font-size: 20px;
+}
+
+.play-btn {
+  width: 45px;
+  margin: 20px;
+  font-size: 30px;
+  background: fff;
+}
+
+#banner a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.bottom-img {
+  width: 100%;
+  height: 50%;
+}
+
+/* PROJECTS */
+#projects {
+  padding: 80px 0;
+}
+
+#projects a {
+  text-decoration: none;
+  color: #000;
+}
+
+.projects:hover {
+  background: #eee;
+  border-radius: 50%;
+}
+
+.project-img {
+  width: 200px;
+  margin-top: 20px;
+  border: 2px solid #000080;
+  border-radius: 5px;
+}
+
+.projects {
+  padding: 20px;
+}
+
+.projects h4 {
+  padding: 5px;
+  margin-top: 25px;
+  text-transform: uppercase;
+}
+
+.title::before {
+  content: "";
+  background: #000080;
+  height: 5px;
+  width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  transform: translateY(63px);
+}
+.title::after {
+  content: "";
+  background: #000080;
+  height: 10px;
+  width: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 40px;
+  display: block;
+  transform: translateY(8px);
+}
+
+#projects .btn-primary {
+  box-shadow: none;
+  padding: 8px 25px;
+  border: none;
+  border-radius: 20px;
+  background-image: linear-gradient(to right, #000080, #000033);
+}
+
+/* ABOUT */
+#about-us {
+  background: #f8f9fa;
+  padding-bottom: 50px;
+  padding-top: 50px;
+}
+
+.about-title {
+  font-size: 40px;
+  font-weight: 600;
+  margin-top: 8%;
+}
+
+.about-us ul li {
+  margin: 10px 0;
+}
+
+.about-us ul {
+  margin-left: 20px;
+}
+
+/* SOCIAL */
+#social-media {
+  background: #f8f9fa;
+  padding: 100px 0;
+}
+
+#social-media p {
+  font-size: 36px;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+
+.social-icons img {
+  width: 60px;
+  transition: 0.5s;
+}
+
+.social-icons a:hover img {
+  transform: translateY(7px);
+}
+
+/* FOOTER */
+#footer {
+  background-image: linear-gradient(to right, #000080, #000033);
+  color: #fff;
+}
+
+.footer-img {
+  width: 100%;
+}
+
+.footer-box {
+  padding: 20px;
+}
+
+.footer-box img {
+  height: 60px;
+  margin-bottom: 20px;
+}
+
+.footer-box .fa {
+  margin-right: 8px;
+  font-size: 25px;
+  height: 40px;
+  width: 40px;
+  text-align: center;
+  padding-top: 7px;
+  border-radius: 20px;
+  background-image: linear-gradient(to left, royalblue, skyblue);
+}
